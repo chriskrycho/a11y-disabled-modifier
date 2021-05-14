@@ -6,7 +6,7 @@ Implement accessible and usable button-disabling (inspired by [this fantastic po
 ```hbs
 <form {{on "submit" this.submit}}>
   <label>some text: <input type='text' /></label>
-  <button type='submit' {{disabled when=this.isInvalid}}></button>
+  <button type='submit' {{disabled when=this.isInvalid}}>submit</button>
 </form>
 ```
 
