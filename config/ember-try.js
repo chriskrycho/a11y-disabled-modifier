@@ -2,6 +2,12 @@
 
 const getChannelURL = require('ember-source-channel-url');
 const { embroiderSafe, embroiderOptimized } = require('@embroider/test-setup');
+const typeTests = require('./ember-try-typescript');
+
+const typeScriptScenarios = typeTests.scenarios.map((s) => ({
+  ...s,
+  command: typeTests.command,
+}));
 
 module.exports = async function () {
   return {
@@ -76,6 +82,11 @@ module.exports = async function () {
       },
       embroiderSafe(),
       embroiderOptimized(),
+
+      // Include the type tests, while still leaving them in their own file so
+      // they can be run independently, for example to run all the type tests but
+      // *only* the type tests locally.
+      ...typeScriptScenarios,
     ],
   };
 };
