@@ -5573,9 +5573,9 @@ eslint-config-prettier@^8.1.0:
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
 eslint-plugin-ember@^10.3.0:
-  version "10.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.0.tgz#f2a9e8286dcc026287501bcca4f587af1a7363f5"
-  integrity sha512-i9+zPBgVKH0Goe6/BCY06+Nzjf72vBzWerdtn5YzAXwVbX+O3fZHXKfTwtNS64o/4F+0HyJ356EisD1PuUQGLA==
+  version "10.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.1.tgz#3ec65cb562b438c64aa28d772606dbb55705e037"
+  integrity sha512-6cubCQdsybN2DtuXnlkhqi3SemBk4ktjq2k4vcjFG8QLmrpmiS6sDwIZMM/TLI8f9QwZIjmewhwS4zB/77E47w==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^1.0.0-alpha.39"
@@ -11096,9 +11096,9 @@ typescript-memoize@^1.0.0-alpha.3:
   integrity sha512-oJNge1qUrOK37d5Y6Ly2txKeuelYVsFtNF6U9kXIN7juudcQaHJQg2MxLOy0CqtkW65rVDYuTCOjnSIVPd8z3w==
 
 typescript@^4.2.4:
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.4.tgz#3f85b986945bcf31071decdd96cf8bfa65f9dcbc"
-  integrity sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
