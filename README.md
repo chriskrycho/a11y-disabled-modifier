@@ -1,3 +1,7 @@
+# ⚠️ Archived! ⚠️
+
+Feel free to fork this and update it and run with it if it is useful to you; I am no longer maintaining it!
+
 a11y-disabled-modifier
 ==============================================================================
 
